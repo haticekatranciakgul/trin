@@ -1,0 +1,59 @@
+.add-transaction-modal-paper {
+  border-radius: 18px;
+}
+
+.add-transaction-modal-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-bottom: 0;
+}
+
+.add-transaction-modal-content {
+  padding-top: 8px;
+}
+
+.add-transaction-type-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.add-transaction-type-btn.active {
+  box-shadow: 0 2px 8px 0 rgba(16,185,129,0.08);
+}
+
+.add-transaction-input {
+  margin-bottom: 8px !important;
+}
+
+.add-transaction-modal-actions {
+  padding: 20px 24px !important;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.add-transaction-amount-input {
+  margin-bottom: 20px!important;
+  width:80%!important;
+}
+.add-transaction-currency-input{
+  width:20%!important;
+  margin-bottom: 20px!important;
+}
+.add-transaction-category-select{
+  width:100%!important;
+  margin-bottom: 20px!important;
+}
+.add-transaction-date-picker {
+  width:100%!important;
+  margin-bottom: 20px!important;
+}
+.add-transaction-account-select{
+  width:100%!important;
+  margin-bottom: 20px!important;
+}
+.add-transaction-not-input {
+  margin-bottom: 20px!important;
+  width:100%!important;
+}

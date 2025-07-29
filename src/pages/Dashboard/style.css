@@ -1,0 +1,16 @@
+.dashboard-expenses-analytics-card,
+.dashboard-income-analytics-card {
+    min-height: 500px;
+}
+
+@media (max-width: 900px) {
+    .dashboard-expenses-analytics-card ,
+    .dashboard-income-analytics-card{
+        min-height: 600px;
+    }
+}
+
+
+.dashboard-expenses-type-dropdown {
+    width:100%!important;
+}

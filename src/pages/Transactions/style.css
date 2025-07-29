@@ -1,0 +1,152 @@
+/* Transactions Sayfası Özel Stilleri */
+
+.transactions-filter-bar {
+  margin-bottom: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transactions-filter-group-left,
+.transactions-filter-group-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .transactions-filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+  .transactions-filter-group-left,
+  .transactions-filter-group-right {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+}
+
+.transactions-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #94a3b8;
+  min-width: 150px;
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .transactions-title {
+    margin-bottom: 8px;
+  }
+}
+.transactions-month-nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .transactions-month-nav {
+    margin-bottom: 8px;
+  }
+}
+.transactions-datepicker {
+  min-width: 220px;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  .transactions-datepicker {
+    justify-content: center;
+  }
+}
+
+/* DailyTabContent */
+.daily-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.daily-summary-col {
+  text-align: center;
+  flex: 1;
+}
+.daily-summary-income {
+  color: #60a5fa;
+  font-weight: 600;
+}
+.daily-summary-expense {
+  color: #f87171;
+  font-weight: 600;
+}
+.daily-summary-total {
+  font-weight: 700;
+}
+.daily-list-day {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.daily-list-day-number {
+  background: var(--mui-palette-background-paper, #232b3b);
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-weight: 600;
+  color: var(--mui-palette-text-primary, #fff);
+  margin-right: 8px;
+}
+.daily-list-day-weekday {
+  color: var(--mui-palette-text-secondary, #b0b8c1);
+  font-weight: 500;
+  margin-right: 16px;
+}
+.daily-list-day-income {
+  color: #60a5fa;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.daily-list-day-expense {
+  color: #f87171;
+  font-weight: 600;
+}
+.daily-list-transaction {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: var(--mui-palette-background-paper, #232b3b);
+  margin-bottom: 8px;
+}
+.daily-list-transaction-icon {
+  font-size: 22px;
+  margin-right: 8px;
+}
+.daily-list-transaction-desc {
+  flex: 1;
+}
+.daily-list-transaction-desc-title {
+  font-weight: 600;
+  color: var(--mui-palette-text-primary, #fff);
+}
+.daily-list-transaction-desc-sub {
+  color: var(--mui-palette-text-secondary, #b0b8c1);
+  font-size: 0.75rem;
+}
+.daily-list-transaction-amount-income {
+  color: #60a5fa;
+  font-weight: 600;
+}
+.daily-list-transaction-amount-expense {
+  color: #f87171;
+  font-weight: 600;
+}
+.daily-list-divider {
+  border-bottom: 1px solid var(--mui-palette-divider, #2c3446);
+  margin: 8px 0;
+} 

@@ -1,0 +1,22 @@
+.categories-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.categories-title {
+  font-weight: 700;
+}
+
+.add-category-btn {
+  margin-left: auto;
+}
+
+.categories-list-row {
+}
+
+.category-card {
+  
+} 

@@ -1,0 +1,16 @@
+.stats-income-expenses-card,
+.stats-expense-distribution-card,
+.stats-monthly-trend-card{
+  min-height: 500px;
+  
+}
+@media (max-width: 900px) {
+  .stats-income-expenses-card,
+  .stats-expense-distribution-card,
+  .stats-monthly-trend-card {
+      min-height: 600px;
+  }
+}
+
+
+

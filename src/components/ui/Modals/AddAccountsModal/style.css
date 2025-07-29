@@ -1,0 +1,51 @@
+.add-account-modal-paper {
+  border-radius: 18px;
+}
+.add-account-modal-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.add-account-modal-content {
+  padding-top: 8px;
+}
+.add-account-type-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.add-account-type-btn.active {
+  box-shadow: 0 2px 8px 0 rgba(16,185,129,0.08);
+}
+.add-account-input {
+  margin-bottom: 8px !important;
+}
+.add-account-modal-actions {
+  padding: 20px 24px !important;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+.add-account-name-input {
+  margin-bottom: 20px!important;
+  width:100%!important;
+}
+.add-account-type-select{
+  width:100%!important;
+  margin-bottom: 20px!important;
+}
+.add-account-date-picker {
+  width:100%!important;
+  margin-bottom: 20px!important;
+}
+.add-account-not-input {
+  margin-bottom: 20px!important;
+  width:100%!important;
+}
+.add-account-currency-input {
+  margin-bottom: 20px!important;
+  width:20%!important;
+}
+.add-transaction-amount-input {
+  margin-bottom: 20px!important;
+  width:80%!important;
+}

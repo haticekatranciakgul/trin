@@ -19,6 +19,7 @@ export const APP_PATHS = {
   CATEGORIES: '/categories',
   MORE: '/more',
   GOLD_CHARTS: '/charts/gold',
+  AMCHART: '/charts/amchart',
 };
 
 // Kullanıcı rota yolları (gelecekte kullanım için)

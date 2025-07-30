@@ -26,6 +26,7 @@ import CategoryIcon from '@mui/icons-material/Category';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import ReceiptIcon from '@mui/icons-material/Receipt';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import TimelineIcon from '@mui/icons-material/Timeline';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ThemeToggle from '../ThemeToggle';
 import ShowChartIcon from '@mui/icons-material/ShowChart';
@@ -41,6 +42,7 @@ const navLinks = [
   { label: 'Accounts', path: APP_PATHS.ACCOUNTS, icon: <AccountBalanceIcon /> },
   { label: 'Categories', path: APP_PATHS.CATEGORIES, icon: <CategoryIcon /> },
   { label: 'Gold Charts', path: APP_PATHS.GOLD_CHARTS, icon: <ShowChartIcon /> },
+  { label: 'amCharts', path: APP_PATHS.AMCHART, icon: <TimelineIcon /> },
   { label: 'More', path: APP_PATHS.MORE, icon: <MoreHorizIcon /> },
 ];
 

@@ -5,8 +5,9 @@ import Transactions from '../pages/Transactions';
 import Stats from '../pages/Stats';
 import Accounts from '../pages/Accounts';
 import More from '../pages/More';
-import GoldCharts from '../pages/Charts/GoldCharts';
+import GoldCharts from '../pages/GoldCharts';
 import { APP_PATHS } from '../constants/routes';
+import AmChartPage from '../pages/LineChartAmChart';
 
 // Ana uygulama rotalarını döndüren fonksiyon
 export const getAppRoutes = () => [
@@ -16,5 +17,6 @@ export const getAppRoutes = () => [
   <Route key="accounts" path={APP_PATHS.ACCOUNTS} element={<Accounts />} />,
   <Route key="categories" path={APP_PATHS.CATEGORIES} element={<Categories />} />,
   <Route key="more" path={APP_PATHS.MORE} element={<More />} />,
-  <Route key="gold-charts" path={APP_PATHS.GOLD_CHARTS} element={<GoldCharts />} />
+  <Route key="gold-charts" path={APP_PATHS.GOLD_CHARTS} element={<GoldCharts />} />,
+  <Route key="amchart" path={APP_PATHS.AMCHART} element={<AmChartPage />} />
 ]; 
